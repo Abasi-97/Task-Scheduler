@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+body{
+    padding: 0 1rem;
+    background-color: #7a5dc7;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    height: 80%;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    gap: 2%;
+    padding: 0;
+}
+.countdown,.calendar{
+    padding: 1rem;
+    width: 40%;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 2%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+table{
+    padding: 2em;
+    margin: auto;
+    font-size: 20px;
+    
+}
+tr,td{
+    padding: 0.8em;
+}
+td{
+    cursor: pointer;
+    transition: ease-in;
+}
+td:hover{
+    background-color: red;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10%;
+    box-sizing: border-box;
+}
+.previous, .next{
+    position: relative;
+    color: aliceblue;
+    background-color: orange;
+    width: 15%;
+    border-width: 0;
+    cursor: pointer;
+}
+.circle-container{
+    height: 40%;
+    padding: 1em;
+    display: block;
+    justify-items: center;
+}
+.circle{
+    height: 100%;
+    width: 43%;
+    background: conic-gradient(rgb(0, 128, 96) 360deg, transparent 0deg);
+    display: block;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+.inner-circle{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    align-content: center;
+}
+.start{
+    position: relative;
+    color: aliceblue;
+    background-color: orange;
+    width: 20%;
+    height: 5%;
+    border-width: 0;
+    cursor: pointer;
+}
+h3{
+    padding: 1em;
+}
+.input{
+    display: none;
+    justify-content: center;
+}
+.add{
+    position: relative;
+    color: aliceblue;
+    background-color: orange;
+    width: 20%;
+    border-width: 0;
+    cursor: pointer;
+}
+.task-container{
+    padding: 1em;
+}
+.task-console{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+.delete-btn{
+    position: relative;
+    color: aliceblue;
+    background-color: orange;
+    justify-content: center;
+    padding: 5px;
+    height: 20px;
+    border-width: 0;
+    cursor: pointer;
+}
